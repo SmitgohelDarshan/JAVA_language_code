@@ -9,7 +9,7 @@ public class A5{
                 char ch = s.charAt(j);
                 System.out.print(ch);
             }
-            System.out.println(" ");
+            System.out.println();
         }
     }
 }

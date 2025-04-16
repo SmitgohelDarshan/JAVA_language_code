@@ -1,27 +1,25 @@
 class Check {
-    int instanceVar; 
-    static int staticVar = 10; 
+    int instanceVariable=35; 
+    static int staticVariable = 45; 
 
-
-    public Check(int instanceVar) {
-        this.instanceVar = instanceVar; 
+    public Check(int instanceVariable) {
+        this.instanceVariable = instanceVariable; 
     }
 
-    public void show() {
-        System.out.println("Instance Variable: " + this.instanceVar);
-        System.out.println("Static Variable: " + staticVar);
+    public void print() {
+        System.out.println("Instance Variable: " + this.instanceVariable);
+        System.out.println("Static Variable: " + staticVariable);
     }
 
     public static void staticMethod() {
-        System.out.println("Static Variable: " + staticVar); 
+        System.out.println("Static Variable: " + staticVariable); 
     }
 }
 
 public class C7 {
     public static void main(String[] args) {
-        Check obj = new Check(50);
-        obj.show();
-
+        Check obj = new Check(35);
+        obj.print();
         Check.staticMethod();
     }
 }

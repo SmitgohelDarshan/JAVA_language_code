@@ -12,6 +12,6 @@ public class A3_2{
 		String s1 = sc.nextLine();
 		System.out.println("Enter string 2: ");
 		String s2 = sc.next();  //first whitespace print
-		System.out.println("s1 =" +s1+  " and s2 =" +s2);
+		System.out.println("s1 ="+s1+" and s2 ="+s2);
 	}
 }

@@ -8,7 +8,6 @@ public class B4{
 
 			for (int i=length/2; i<length ; i++) {
 				char ch = s.charAt(i);
-
 				System.out.print(ch);
 			}
 	}

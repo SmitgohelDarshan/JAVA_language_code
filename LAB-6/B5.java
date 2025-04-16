@@ -9,10 +9,10 @@ class ComplexNumber {
         this.imaginary = imaginary;
     }
 
-    public ComplexNumber() { 
-        this.real = 0;
-        this.imaginary = 0;
-    }
+    // public ComplexNumber() { //method overloading  
+    //     this.real = 0;
+    //     this.imaginary = 0;
+    // }
 
 
     public void addition(ComplexNumber obj2) {

@@ -34,9 +34,6 @@ class Vowel {
                 case 'u':
                     U++;
                     break;
-
-                default:
-                    break;
             }
         }
     }
@@ -57,10 +54,10 @@ public class B3 {
         Vowel vowelCount = new Vowel();  
 
         while (true) {
-            System.out.println("Enter Sentences (if exit so type no): ");
+            System.out.println("Enter Sentences (if exit so type quit): ");
             String sentences = sc.nextLine();
 
-            if (sentences.equalsIgnoreCase("no")) {
+            if (sentences.equalsIgnoreCase("quit")) {
                 break;
             }
 

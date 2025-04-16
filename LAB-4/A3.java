@@ -10,7 +10,7 @@ public class A3{
 			arr[i] = sc.nextInt();
 		}
 		for (int i=n-1; i>=0; i--) {
-			System.out.println("Reverse order: " arr[i]);
+			System.out.println("Reverse order: " +arr[i]);
 		}
 	}
 }
